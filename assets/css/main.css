@@ -1187,6 +1187,8 @@ input[type="radio"] + label:before {
 
 /* Icon */
 .icon {
+  display: inline-flex;               /* Use Flexbox */
+  align-items: center;                /* Vertical alignment */
   text-decoration: none;
   border-bottom: none;
   position: relative; }
