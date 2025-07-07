@@ -32,6 +32,15 @@ body {
 
 ol, ul {
   list-style: none; }
+  ul.icons {
+  display: flex;               /* arrange items in a row */
+  list-style: none;            /* remove bullets */
+  padding: 0;                  /* remove default left indent */
+  margin: 0;                   /* remove default margin */
+  align-items: center;         /* vertical centering */
+  justify-content: flex-end;   /* or center, space-between, etc. */
+  gap: 1em;                    /* spacing between icons */
+}
 
 blockquote, q {
   quotes: none; }
