@@ -1846,12 +1846,12 @@ button,
 #wrapper {
   display: -moz-flex;
   display: -webkit-flex;
-  display: -ms-flex;
+  display: -ms-flexbox;
   display: flex;
-  -moz-flex-direction: row-reverse;
-  -webkit-flex-direction: row-reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+  -moz-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; 
   min-height: 100vh; }
 
 /* Main */
