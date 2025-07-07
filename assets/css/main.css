@@ -2089,6 +2089,11 @@ button,
     -ms-flex: 1;
     flex: 1;
     margin-bottom: 0; }
+  #header .inner {
+    display: flex;
+    justify-content: space-between; /* Space between logo and icons */
+    align-items: center;             /* Vertically center-align items */
+    flex-wrap: wrap; }                /* Allows wrapping on smaller screens */
   #header .logo {
     border-bottom: 0;
     color: inherit;
