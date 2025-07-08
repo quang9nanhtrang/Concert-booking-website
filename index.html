@@ -42,7 +42,7 @@
 									    <!-- Name -->
 									    <div class="col-12">
 									      <label for="demo-name">Tên của bạn (*)</label>
-									      <input type="text" name="demo-name" id="demo-name" placeholder="Nhập tên của bạn" required />
+									      <input type="text" name="demo-name" id="demo-name" placeholder="Nhập tên của bạn" required oninvalid="this.setCustomValidity('Vui lòng nhập tên của bạn')" oninput="this.setCustomValidity('')" />
 									    </div>
 								
 									    <!-- Email -->
