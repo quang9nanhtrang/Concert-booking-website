@@ -24,7 +24,7 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline; }
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, , hgroup, menu, nav, section {
   display: block; }
 
 body {
@@ -133,7 +133,7 @@ a {
       color: inherit; }
 
 strong, b {
-  color: #3d4449;
+  color: #49423D;
   font-weight: 600; }
 
 em, i {
