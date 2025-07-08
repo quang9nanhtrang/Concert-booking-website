@@ -1630,6 +1630,9 @@ button,
 	.contact-button a img {
 	  display: block;
 	  border: none; }
+	.contact-button a img {
+	  display: block;
+	  border: none; }
 
 /* Mini Posts */
 .mini-posts article {
