@@ -2097,7 +2097,7 @@ button,
   max-width: 100%;
   background-color: #000000;        /* background of the header */
   color: #D4AF37;                   /* text color inside the header */
-  padding: 1em 1cm 1em 1cm;
+  padding: 1em 1em 1em 1em;
   position: relative; }
   #header > * {
     -moz-flex: 1;
@@ -2116,8 +2116,13 @@ button,
     font-family: "Roboto Slab", serif;
     font-size: 1.125em; }
   #header .icons {
-    text-align: right;
-    align-items: center; }
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1em;
+  list-style: none;
+  padding: 0;
+  margin: 0; }
   @media screen and (max-width: 1680px) {
     #header {
       padding-top: 5em; } }
