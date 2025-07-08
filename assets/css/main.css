@@ -2129,9 +2129,11 @@ button,
   @media screen and (max-width: 736px) {
     #header {
       padding: 1.5em 1em; }
-    #header .logo {
-      font-size: 1.25em;
-      margin: 0; }
+    #header .inner {
+      display: flex;
+      justify-content: space-between; /* Space between logo and icons */
+      align-items: center;            /* Vertically center-align items */
+      flex-wrap: wrap; }              /* Allows wrapping on smaller screens */
     #header .icons {
       position: static;        /* ← removes absolute positioning */
       height: auto;
